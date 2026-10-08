@@ -49,7 +49,14 @@ require 'includes/header.php';
 
     </div>
 </section>
-
+<section>
+    <h2>Fokus Pembelajaran</h2>
+    <ul>
+        <li>Pengembangan Web</li>
+        <li>Database dan Pengolahan Data</li>
+        <li>Teknologi Informasi dan Sistem Informasi</li>
+    </ul>
+</section>
 <?php
 require 'includes/footer.php';
 ?>
