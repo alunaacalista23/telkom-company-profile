@@ -28,8 +28,13 @@ $currentPage = basename($_SERVER['PHP_SELF']);
                 Beranda
             </a>
 
+HEAD
             <a class="<?= $currentPage === 'profile.php' ? 'active' : '' ?>" href="profile.php">
                 Tentang Kampus
+
+            <a class="<?= $currentPage === 'profile.php' ? 'active' : '' ?>" href="profile.php"> 
+                 Tentang Kami 
+ conflict-navbar
             </a>
 
             <a class="<?= $currentPage === 'programs.php' ? 'active' : '' ?>" href="programs.php">
